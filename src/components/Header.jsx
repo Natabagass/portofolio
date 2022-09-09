@@ -59,7 +59,7 @@ function Header() {
                 <div className=" py-3  flex shadow-md w-full items-center">
                     <div className="flex px-24 w-full items-center justify-between">
                             <h1 className="text-6xl font-Recursive">Bio<span className="text-red-500">.</span></h1>
-                        <ul className={`${toggle ? 'translate-x-[1000px] flex' : 'translate-x-0'} transition duration-500 bg-[#ffffffa9] z-20 flex flex-col justify-end absolute top-24 right-0 text-lg`}>
+                        <ul className={`${toggle ? 'translate-x-0 flex' : 'translate-x-[1000px]'} transition duration-500 bg-[#ffffffa9] z-20 flex flex-col justify-end absolute top-24 right-0 text-lg`}>
                             {
                                 nav.map((name) => {
                                     return (
