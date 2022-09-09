@@ -9,7 +9,7 @@ import Img4 from "../img/Sertifikat kursus JavaScript_page-0001.jpg"
 import Img5 from "../img/Sertifikat Machine learning_page-0001.jpg"
 import Img6 from "../img/SERTIFIKAT PENGEMBANGAN WEB_page-0001.jpg"
 import ImgPribadi from "../img/IMG20210526100211.jpg"
-import ImgProject from "../img/mintnft.jpg"
+import ImgProject from "../img/mintnft.png"
 
 // Import Swiper styles
 import "swiper/css";
