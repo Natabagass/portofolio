@@ -36,12 +36,14 @@ function Header() {
                         <ul className=" flex flex-row items-center text-lg">
 
                             {
-                                nav.map((name) => {
-                                    return (
-                                        <li className="flex mx-10">
-                                            <a href={name.link}>{name.name}</a>
-                                        </li>
-                                    )
+                                nav.map((name, index) => {
+                                    if(index !== 4) {
+                                        return (
+                                            <li className="flex mx-10">
+                                                <a href={name.link}>{name.name}</a>
+                                            </li>
+                                        )
+                                    }
                                 })
                             }
                         </ul>
