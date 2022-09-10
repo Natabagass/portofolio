@@ -39,7 +39,7 @@ function Header() {
                                 nav.map((name, index) => {
                                     if(index !== 4) {
                                         return (
-                                            <li className="flex mx-10">
+                                            <li className="flex mx-10 hover:font-semibold hover:text-slate-800">
                                                 <a href={name.link}>{name.name}</a>
                                             </li>
                                         )
@@ -48,8 +48,8 @@ function Header() {
                             }
                         </ul>
 
-                            <li className=" flex items-center justify-center list-none ">
-                                <a href="https://wa.me/082236241677" className="border-solid border-2 p-2 rounded-lg border-slate-500">Chat</a>
+                            <li className=" flex items-center justify-center list-none">
+                                <a href="https://wa.me/082236241677" className="border-solid border-2 p-2 transition duration-500 hover:font-bold rounded-lg hover:ring hover:ring-sky-400 border-sky-400">Chat</a>
                             </li>
                     </div>
                 </div>
@@ -57,13 +57,13 @@ function Header() {
 
             <div className="flex lg:hidden bg-white fixed w-full top-0 z-10">
                 <div className=" py-3  flex shadow-md w-full items-center">
-                    <div className="flex px-24 w-full items-center justify-between">
+                    <div className="flex px-24 w-full items-center justify-between ">
                             <h1 className="text-6xl font-Recursive">Bio<span className="text-red-500">.</span></h1>
-                        <ul className={`${toggle ? 'translate-x-0 flex' : 'translate-x-[1000px]'} transition duration-500 bg-[#ffffffa9] z-20 flex flex-col justify-end absolute top-24 right-0 text-lg`}>
+                        <ul className={`${toggle ? 'translate-x-0 flex' : 'translate-x-[1000px]'} transition duration-500 bg-[#ffffffa9] z-20 flex flex-col justify-end absolute top-20 right-0 text-lg text-slate-900`}>
                             {
                                 nav.map((name) => {
                                     return (
-                                        <li className="flex mx-10 my-10">
+                                        <li className="flex mx-10 my-10 ">
                                             <a href={name.link}>{name.name}</a>
                                         </li>
                                     )
