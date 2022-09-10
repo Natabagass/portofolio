@@ -28,7 +28,7 @@ function Main() {
                 <div className="flex flex-col lg:text-left text-center">
                     <h1 className="text-4xl font-Nunito w-full text-sky-400 font-bold">Tentang Diri</h1>
                     <p className="bg-white py-5 text-lg lg:w-[80%] w-full font-Lato">Haloo, namaku <span className="bg-white font-bold text-red-500">Bagas Meganata</span>. Biasa dipanggil Bagas atau Nata, sekarang saya sedang menempuh kuliah di Universitas Brawijaya di jurusan Teknologi Informasi Fakultas Ilmu Komputer. Untuk sekarang saya masih semester 3 dan saya memiliki ketertarikan tinggi mengenai teknologi Blockchain yang sedang booming pada saat ini.
-                    <p className="mt-10">Sekarang bahasa yang saya kuasai adalah HTML, CSS, Javascript ( Belum Terlalu ), framework Tailwind dan sedang belajar mengenai framework Front-end yaitu React. Kemudian saya juga paham mengenai <span className="text-red-500 font-bold">bahasa Solidity serta developing sebuah blockchain.</span></p></p>
+                    <p className="mt-10">Sekarang bahasa yang saya kuasai adalah HTML, CSS, Javascript ( belum terlalu ), framework Tailwind dan sedang belajar mengenai framework Front-end yaitu React. Kemudian saya juga paham mengenai <span className="text-red-500 font-bold">bahasa Solidity serta developing sebuah blockchain.</span></p></p>
                 </div>
                 <img src={ImgPribadi} alt="gambar" className="flex-row justify-center lg:max-h-[400px] rounded-xl"/>
             </div>
