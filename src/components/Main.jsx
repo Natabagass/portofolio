@@ -2,6 +2,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import Img from "../img/sertif winner blockchain (1).png"
 import Img2 from "../img/Bagas Meganata_Sertifikat Bootcamp Kotakode x Progate 2.0_page-0001.jpg"
 import Img1 from "../img/Sertif Blockchain_page-0001.jpg"
 import Img3 from "../img/PYTHON PROGATE_page-0001.jpg"
@@ -53,6 +54,9 @@ function Main() {
                 </div>
                 <div className="w-[500px]">
                     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                        <SwiperSlide>
+                            <img src={Img} alt="logo"/>
+                        </SwiperSlide>
                         <SwiperSlide>
                             <img src={Img1} alt="logo"/>
                         </SwiperSlide>
